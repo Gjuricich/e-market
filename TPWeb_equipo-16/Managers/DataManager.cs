@@ -22,7 +22,7 @@ namespace Managers
         {
             conection = new SqlConnection();
             command = new SqlCommand();
-            conection.ConnectionString = "workstation id=e-MarketDB.mssql.somee.com;packet size=4096;user id=Alebardo_SQLLogin_2;pwd=2q8ouey2cy;data source=e-MarketDB.mssql.somee.com;persist security info=False;initial catalog=e-MarketDB;TrustServerCertificate=True";
+            conection.ConnectionString = "server=.\\SQLEXPRESS;database=CATALOGO_P3_DB;integrated security = true;";
 
         }
         

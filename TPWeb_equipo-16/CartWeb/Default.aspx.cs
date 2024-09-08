@@ -13,13 +13,6 @@ namespace CartWeb
     public partial class WebForm1 : System.Web.UI.Page
     {
         public List<Item> itemList { get; set; }
-
-        public List<Item> itemsIndumentary { get; set; }
-        public List<Item> itemsAudio { get; set; }
-
-        public List<Item> itemsCellpone { get; set; }
-
-        public List<Item> itemsMedia { get; set; }
         public ShoppingCart currentCart { get; set; }
 
 
@@ -31,26 +24,13 @@ namespace CartWeb
                     ItemManager iManager = new ItemManager();
                     itemList = iManager.Listacompleta();
                     itemList = urlValidation(itemList);
-                    
-                    itemsIndumentary = itemList.FindAll(item => item.Category.Descripcion.Equals("Indumentaria"));
-                    itemsAudio = itemList.FindAll(item => item.Category.Descripcion.Equals("Audio"));
-                    itemsCellpone = itemList.FindAll(item => item.Category.Descripcion.Equals("Celulares"));
-                    itemsMedia = itemList.FindAll(item => item.Category.Descripcion.Equals("Media"));
                     Session["ItemList"] = itemList;
-                    Session["itemsMedia"] = itemsMedia;
-                    Session["itemsIndumentary"] = itemsIndumentary;
-                    Session["itemsAudio"] = itemsAudio;
-                    Session["itemsCellpone"] = itemsCellpone;
-            }
+                }
                 else
                 {
 
                     itemList = (List<Item>)Session["ItemList"];
-                    itemsIndumentary = (List<Item>)Session["itemsIndumentary"];
-                    itemsAudio = (List<Item>)Session["itemsAudio"];
-                    itemsCellpone = (List<Item>)Session["itemsCellpone"];
-                    itemsMedia = (List<Item>)Session["itemsMedia"];
-            }
+                }
            
 
             currentCart = (ShoppingCart)Session["Cart"];
