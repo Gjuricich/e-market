@@ -1,0 +1,9 @@
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\bin\Release\Managers.dll
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\bin\Release\Managers.pdb
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\bin\Release\Domain.dll
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\bin\Release\Domain.pdb
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\obj\Release\Managers.csproj.AssemblyReference.cache
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\obj\Release\Managers.csproj.CoreCompileInputs.cache
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\obj\Release\Managers.csproj.CopyComplete
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\obj\Release\Managers.dll
+C:\Users\Aleja\Desktop\e-market\TPWeb_equipo-16\Managers\obj\Release\Managers.pdb

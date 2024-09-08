@@ -1,0 +1,56 @@
+﻿.headerBanner {
+    background: linear-gradient(to bottom, #191212, #333333); /* Gradiente de gris oscuro a gris más claro */
+    font-family: 'Jost', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .headerBanner img {
+        width: auto;
+        height: 300px;
+    }
+
+    .headerBanner h1 {
+        color: tomato;
+        font-size: 6vw;
+        font-weight: bolder;
+    }
+
+    .headerBanner h2 {
+        color: white;
+        font-size: 4vw;
+    }
+.navbar.bg-body-tertiary {
+    background: linear-gradient(to bottom, #191212, #333333);
+}
+footer {
+    background: linear-gradient(to bottom, #191212, #333333);
+
+    padding-top: 20px;
+}
+@media (max-width: 768px) {
+    .headerBanner h1 {
+        font-size: 10vw;
+    }
+
+    .headerBanner img {
+        width: auto;
+        height: 500vh;
+    }
+
+    .headerBanner img {
+        width: auto;
+        height: 230px;
+    }
+
+    .headerBanner h2 {
+        font-size: 4vw;
+    }
+}
